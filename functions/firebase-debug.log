@@ -1,0 +1,110 @@
+[debug] [2021-01-18T08:15:36.182Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T08:15:36.183Z] Command:       /usr/local/Cellar/node@14/14.15.3/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2021-01-18T08:15:36.184Z] CLI Version:   9.2.1
+[debug] [2021-01-18T08:15:36.184Z] Platform:      darwin
+[debug] [2021-01-18T08:15:36.184Z] Node Version:  v14.15.3
+[debug] [2021-01-18T08:15:36.185Z] Time:          Mon Jan 18 2021 09:15:36 GMT+0100 (centraleuropeisk normaltid)
+[debug] [2021-01-18T08:15:36.185Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T08:15:36.185Z] 
+[debug] [2021-01-18T08:15:36.190Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-18T08:15:36.190Z] > authorizing via signed-in user
+[debug] [2021-01-18T08:15:36.190Z] [iam] checking project jamee-emamie-dev for permissions ["firebase.projects.get"]
+[debug] [2021-01-18T08:15:36.193Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jamee-emamie-dev:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-01-18T08:15:37.129Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 08:15:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=720","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "10" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"14\""}}
+[debug] [2021-01-18T08:15:37.140Z] defaultcredentials: writing to file /Users/ali/.config/firebase/adeli_alijan_gmail.com_application_default_credentials.json
+[debug] [2021-01-18T08:15:37.141Z] DEBUG: Setting GAC to /Users/ali/.config/firebase/adeli_alijan_gmail.com_application_default_credentials.json
+[debug] [2021-01-18T08:15:37.142Z] > refreshing access token with scopes: []
+[debug] [2021-01-18T08:15:37.142Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-18T08:15:37.232Z] <<< HTTP RESPONSE 200 {"date":"Mon, 18 Jan 2021 08:15:37 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T08:15:37.238Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig [none]
+[debug] [2021-01-18T08:15:37.745Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig 200
+[debug] [2021-01-18T08:15:37.745Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig {"projectId":"jamee-emamie-dev","databaseURL":"https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app","storageBucket":"jamee-emamie-dev.appspot.com","locationId":"europe-west"}
+[debug] [2021-01-18T08:15:37.757Z] [functions] Watching "/Users/ali/Desktop/projects/jamee-emamie/functions" for Cloud Functions...
+[debug] [2021-01-18T08:15:37.766Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-01-18T08:15:37.766Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-01-18T08:15:37.766Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-01-18T08:15:37.766Z] DEBUG: [worker-~diagnostic~-a401dc82-c03d-459d-9b60-6ce80aaa5d18]: Assigning socketPath: /var/folders/0r/pr0cj91j5s1c36j_2kjcy98r0000gn/T/fire_emu_4180.sock
+[debug] [2021-01-18T08:15:37.767Z] DEBUG: [worker-~diagnostic~-a401dc82-c03d-459d-9b60-6ce80aaa5d18]: BUSY
+[debug] [2021-01-18T08:15:37.897Z] DEBUG: [runtime-status] [4180] Functions runtime initialized. {"cwd":"/Users/ali/Desktop/projects/jamee-emamie/functions","node_version":"14.15.3"}
+[debug] [2021-01-18T08:15:37.898Z] DEBUG: [runtime-status] [4180] Disabled runtime features: undefined
+[debug] [2021-01-18T08:15:37.900Z] DEBUG: [runtime-status] [4180] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-01-18T08:15:37.901Z] DEBUG: [runtime-status] [4180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:15:37.902Z] DEBUG: [runtime-status] [4180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:15:37.903Z] DEBUG: [runtime-status] [4180] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-01-18T08:15:37.904Z] DEBUG: [runtime-status] [4180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:15:37.935Z] DEBUG: [runtime-status] [4180] Checked functions.config() {"config":{}}
+[debug] [2021-01-18T08:15:37.935Z] DEBUG: [runtime-status] [4180] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2021-01-18T08:15:37.936Z] DEBUG: [runtime-status] [4180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:15:37.936Z] DEBUG: [runtime-status] [4180] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-01-18T08:15:37.937Z] DEBUG: [runtime-status] [4180] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:15:37.937Z] DEBUG: [runtime-status] [4180] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}}
+[warn] ⚠  It looks like you're trying to access functions.config().firebase but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().firebase but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[debug] [2021-01-18T08:15:37.978Z] DEBUG: [runtime-status] [4180] initializeApp(DEFAULT) {"storageBucket":"jamee-emamie-dev.appspot.com","databaseURL":"https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app","projectId":"jamee-emamie-dev"}
+[warn] ⚠  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] ⚠  /Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:1
+TypeError: Cannot read property 'ref' of undefined
+    at Object.<anonymous> (/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:5:4)
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:1\nTypeError: Cannot read property 'ref' of undefined\n    at Object.<anonymous> (/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:5:4)\n    at Generator.next (<anonymous>)"}}
+[warn] ⚠  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2021-01-18T08:15:38.105Z] DEBUG: [worker-~diagnostic~-a401dc82-c03d-459d-9b60-6ce80aaa5d18]: exited
+[debug] [2021-01-18T08:15:38.105Z] DEBUG: [worker-~diagnostic~-a401dc82-c03d-459d-9b60-6ce80aaa5d18]: FINISHED
+[debug] [2021-01-18T08:16:38.451Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T08:16:38.453Z] Command:       /usr/local/Cellar/node@14/14.15.3/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2021-01-18T08:16:38.453Z] CLI Version:   9.2.1
+[debug] [2021-01-18T08:16:38.453Z] Platform:      darwin
+[debug] [2021-01-18T08:16:38.453Z] Node Version:  v14.15.3
+[debug] [2021-01-18T08:16:38.454Z] Time:          Mon Jan 18 2021 09:16:38 GMT+0100 (centraleuropeisk normaltid)
+[debug] [2021-01-18T08:16:38.454Z] ----------------------------------------------------------------------
+[debug] [2021-01-18T08:16:38.455Z] 
+[debug] [2021-01-18T08:16:38.459Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-18T08:16:38.460Z] > authorizing via signed-in user
+[debug] [2021-01-18T08:16:38.460Z] [iam] checking project jamee-emamie-dev for permissions ["firebase.projects.get"]
+[debug] [2021-01-18T08:16:38.462Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-01-18T08:16:38.462Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-18T08:16:38.567Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 18 Jan 2021 08:16:38 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T08:16:38.576Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/jamee-emamie-dev:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-01-18T08:16:38.776Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 18 Jan 2021 08:16:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=152","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[warn] ⚠  Your requested "node" version "10" doesn't match your global version "14" {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"10\" doesn't match your global version \"14\""}}
+[debug] [2021-01-18T08:16:38.786Z] defaultcredentials: writing to file /Users/ali/.config/firebase/adeli_alijan_gmail.com_application_default_credentials.json
+[debug] [2021-01-18T08:16:38.787Z] DEBUG: Setting GAC to /Users/ali/.config/firebase/adeli_alijan_gmail.com_application_default_credentials.json
+[debug] [2021-01-18T08:16:38.789Z] > refreshing access token with scopes: []
+[debug] [2021-01-18T08:16:38.789Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-01-18T08:16:38.888Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 18 Jan 2021 08:16:38 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-01-18T08:16:38.895Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig [none]
+[debug] [2021-01-18T08:16:39.278Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig 200
+[debug] [2021-01-18T08:16:39.278Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jamee-emamie-dev/adminSdkConfig {"projectId":"jamee-emamie-dev","databaseURL":"https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app","storageBucket":"jamee-emamie-dev.appspot.com","locationId":"europe-west"}
+[debug] [2021-01-18T08:16:39.291Z] [functions] Watching "/Users/ali/Desktop/projects/jamee-emamie/functions" for Cloud Functions...
+[debug] [2021-01-18T08:16:39.299Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2021-01-18T08:16:39.299Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2021-01-18T08:16:39.299Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2021-01-18T08:16:39.299Z] DEBUG: [worker-~diagnostic~-2ef3bac0-9d72-46ce-b597-8a8183d935c6]: Assigning socketPath: /var/folders/0r/pr0cj91j5s1c36j_2kjcy98r0000gn/T/fire_emu_4216.sock
+[debug] [2021-01-18T08:16:39.300Z] DEBUG: [worker-~diagnostic~-2ef3bac0-9d72-46ce-b597-8a8183d935c6]: BUSY
+[debug] [2021-01-18T08:16:39.419Z] DEBUG: [runtime-status] [4216] Functions runtime initialized. {"cwd":"/Users/ali/Desktop/projects/jamee-emamie/functions","node_version":"14.15.3"}
+[debug] [2021-01-18T08:16:39.420Z] DEBUG: [runtime-status] [4216] Disabled runtime features: undefined
+[debug] [2021-01-18T08:16:39.422Z] DEBUG: [runtime-status] [4216] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-01-18T08:16:39.422Z] DEBUG: [runtime-status] [4216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:16:39.424Z] DEBUG: [runtime-status] [4216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:16:39.425Z] DEBUG: [runtime-status] [4216] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2021-01-18T08:16:39.426Z] DEBUG: [runtime-status] [4216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:16:39.454Z] DEBUG: [runtime-status] [4216] Checked functions.config() {"config":{}}
+[debug] [2021-01-18T08:16:39.454Z] DEBUG: [runtime-status] [4216] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}}
+[debug] [2021-01-18T08:16:39.455Z] DEBUG: [runtime-status] [4216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:16:39.455Z] DEBUG: [runtime-status] [4216] Resolved module firebase-admin {"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2021-01-18T08:16:39.456Z] DEBUG: [runtime-status] [4216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.13.1","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2021-01-18T08:16:39.456Z] DEBUG: [runtime-status] [4216] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"9.4.2","resolution":"/Users/ali/Desktop/projects/jamee-emamie/functions/node_modules/firebase-admin/lib/index.js"}}
+[warn] ⚠  It looks like you're trying to access functions.config().firebase but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().firebase but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[debug] [2021-01-18T08:16:39.494Z] DEBUG: [runtime-status] [4216] initializeApp(DEFAULT) {"storageBucket":"jamee-emamie-dev.appspot.com","databaseURL":"https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app","projectId":"jamee-emamie-dev"}
+[warn] ⚠  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] ⚠  /Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:1
+TypeError: Cannot read property 'ref' of undefined
+    at Object.<anonymous> (/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:5:4)
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:1\nTypeError: Cannot read property 'ref' of undefined\n    at Object.<anonymous> (/Users/ali/Desktop/projects/jamee-emamie/functions/db/groupChats/members/onCreate.f.js:5:4)\n    at Generator.next (<anonymous>)"}}
+[warn] ⚠  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2021-01-18T08:16:39.602Z] DEBUG: [worker-~diagnostic~-2ef3bac0-9d72-46ce-b597-8a8183d935c6]: exited
+[debug] [2021-01-18T08:16:39.602Z] DEBUG: [worker-~diagnostic~-2ef3bac0-9d72-46ce-b597-8a8183d935c6]: FINISHED

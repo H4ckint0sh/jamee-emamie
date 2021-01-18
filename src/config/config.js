@@ -13,47 +13,50 @@ const config = {
   firebase: {
     prod: {
       initConfig: {
-        apiKey: 'AIzaSyBQAmNJ2DbRyw8PqdmNWlePYtMP0hUcjpY',
-        authDomain: 'react-most-wanted-3b1b2.firebaseapp.com',
-        databaseURL: 'https://react-most-wanted-3b1b2.firebaseio.com',
-        projectId: 'react-most-wanted-3b1b2',
-        storageBucket: 'react-most-wanted-3b1b2.appspot.com',
-        messagingSenderId: '258373383650',
-        appId: '1:258373383650:web:b49ad5dd28da999a',
+        apiKey: "AIzaSyBw5d61Z3NUReqD7372Y02MoyQT-9P8e8s",
+				authDomain: "jamee-emamie-dev.firebaseapp.com",
+				databaseURL: "https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app",
+				projectId: "jamee-emamie-dev",
+				storageBucket: "jamee-emamie-dev.appspot.com",
+				messagingSenderId: "116218361563",
+				appId: "1:116218361563:web:4b8235924fddd5ea09befe",
+				measurementId: "G-FEQPTJXDLV"
       },
       messaging: {
         publicVapidKey:
-          'BEthk1-Qmoh9opZbi1AUZpxANTu6djVRDph4MLpyO2Qk6Dglm1Sa8Yt_pYi4EhYi3Tj-xgLqUktlbNuP_RP6gto',
+          'BINrNXELxb-yv5F_tRYJ9xY4l2GpHf2d_723AGddgMPC8UPQqLAqMKD3Lklqz25Nn9PtaQYSK89UDlX-jPuEppo',
       },
     },
     dev: {
       initConfig: {
-        apiKey: 'AIzaSyBQAmNJ2DbRyw8PqdmNWlePYtMP0hUcjpY',
-        authDomain: 'react-most-wanted-3b1b2.firebaseapp.com',
-        databaseURL: 'https://react-most-wanted-3b1b2.firebaseio.com',
-        projectId: 'react-most-wanted-3b1b2',
-        storageBucket: 'react-most-wanted-3b1b2.appspot.com',
-        messagingSenderId: '258373383650',
-        appId: '1:258373383650:web:b49ad5dd28da999a',
+        apiKey: "AIzaSyBw5d61Z3NUReqD7372Y02MoyQT-9P8e8s",
+				authDomain: "jamee-emamie-dev.firebaseapp.com",
+				databaseURL: "https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app",
+				projectId: "jamee-emamie-dev",
+				storageBucket: "jamee-emamie-dev.appspot.com",
+				messagingSenderId: "116218361563",
+				appId: "1:116218361563:web:4b8235924fddd5ea09befe",
+				measurementId: "G-FEQPTJXDLV"
       },
       messaging: {
         publicVapidKey:
-          'BEthk1-Qmoh9opZbi1AUZpxANTu6djVRDph4MLpyO2Qk6Dglm1Sa8Yt_pYi4EhYi3Tj-xgLqUktlbNuP_RP6gto',
+          'BINrNXELxb-yv5F_tRYJ9xY4l2GpHf2d_723AGddgMPC8UPQqLAqMKD3Lklqz25Nn9PtaQYSK89UDlX-jPuEppo',
       },
     },
     devd: {
       initConfig: {
-        apiKey: 'AIzaSyB31cMH9nJnERC1WCWA7lQHnY08voLs-Z0',
-        authDomain: 'react-most-wanted-dev.firebaseapp.com',
-        databaseURL: 'https://react-most-wanted-dev.firebaseio.com',
-        projectId: 'react-most-wanted-dev',
-        storageBucket: 'react-most-wanted-dev.appspot.com',
-        messagingSenderId: '70650394824',
-        appId: '1:70650394824:web:7cd3113c37741efc',
+        apiKey: "AIzaSyBw5d61Z3NUReqD7372Y02MoyQT-9P8e8s",
+				authDomain: "jamee-emamie-dev.firebaseapp.com",
+				databaseURL: "https://jamee-emamie-dev-default-rtdb.europe-west1.firebasedatabase.app",
+				projectId: "jamee-emamie-dev",
+				storageBucket: "jamee-emamie-dev.appspot.com",
+				messagingSenderId: "116218361563",
+				appId: "1:116218361563:web:4b8235924fddd5ea09befe",
+				measurementId: "G-FEQPTJXDLV"
       },
       messaging: {
         publicVapidKey:
-          'BGddXH_O6qLmcingsSJx-R3hC8U9yUr2mW4ko63fF__e50WvfRcBfZu_JyBzLI35DNUE5x_9CPBqe64BWniCxV0',
+          'BINrNXELxb-yv5F_tRYJ9xY4l2GpHf2d_723AGddgMPC8UPQqLAqMKD3Lklqz25Nn9PtaQYSK89UDlX-jPuEppo',
       },
     },
     firebaseuiProps: {

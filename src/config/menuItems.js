@@ -153,8 +153,7 @@ const getMenuItems = (props) => {
       leftIcon: <Slideshow />,
       nestedItems: [
         {
-          value: '/admin',
-          visible: !isAdmin,
+					value: '/admin',
           primaryText: intl.formatMessage({
             id: 'admin',
             defaultMessage: 'Admin',

@@ -6,6 +6,7 @@ const themes = [
   {
     id: 'default',
     source: {
+			direction: 'rtl',
       palette: {
         primary: { main: '#343434' },
         secondary: {
@@ -18,6 +19,7 @@ const themes = [
     id: 'red',
     color: red[500],
     source: {
+			direction: 'rtl',
       palette: {
         primary: red,
         secondary: pink,
@@ -27,8 +29,9 @@ const themes = [
   },
   {
     id: 'green',
-    color: green[500],
+		color: green[500],
     source: {
+			direction: 'rtl',
       palette: {
         primary: green,
         secondary: red,
@@ -37,7 +40,10 @@ const themes = [
     },
   },
   {
-    id: 'standard',
+		id: 'standard',
+		source: {
+			direction: 'rtl',
+    },
   },
 ]
 

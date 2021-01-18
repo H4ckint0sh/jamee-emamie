@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "react-most-wanted-dev",
-    "prod": "react-most-wanted-3b1b2",
-    "dev": "react-most-wanted-dev"
+    "prod": "jamee-emamie-dev",
+    "dev": "jamee-emamie-dev",
+    "devd": "jamee-emamie-dev"
   }
 }
